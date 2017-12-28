@@ -31,7 +31,7 @@ namespace ConsoleApplication4
             Console.WriteLine(stack.Peek());
 
             Queue<string> queue = new Queue<string>(new string[] { "first", "second", "third" });
-            Console.WriteLine(queue.size());
+            Console.WriteLine(queue.Count);
             for (int i = 0; i < queue.Count; i++)
             {
                 Console.Write("{0},",queue.at(i));
@@ -47,7 +47,7 @@ namespace ConsoleApplication4
             Console.WriteLine(queue.Dequeue());
             Console.WriteLine(queue.Peek());
             Console.WriteLine(queue.at(0));
-            Console.WriteLine(queue.size());
+            Console.WriteLine(queue.Count);
             Console.WriteLine(queue.Dequeue());
             for (int i = 0; i < queue.Count; i++)
             {

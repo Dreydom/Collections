@@ -30,7 +30,7 @@ namespace ConsoleApplication4
 
         public T Pop() //Удаляет и возвращает объект, находящийся в начале Stack.
         {
-            if (this.size() == 0)
+            if (this.Count == 0)
             {
                 throw new InvalidOperationException(); //вброс ошибки при взятии с пустого стека
             }

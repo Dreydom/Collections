@@ -16,18 +16,12 @@ namespace ConsoleApplication4
         {
             get
             {
-                return this.size();
+                return index;
             }
         }
-
-        public int size() //возвращает количество элементов в списке
-        {
-            return index;
-        }
-
         public bool isEmpty() //проверка на пустоту
         {
-            return this.size() == 0;
+            return this.Count == 0;
         }
        
         public T at(int index) //возвращает элемент списка по индексу
